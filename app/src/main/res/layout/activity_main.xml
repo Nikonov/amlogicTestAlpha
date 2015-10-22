@@ -8,15 +8,14 @@
     <VideoView
         android:id="@+id/video_view"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/colorAccent" />
+        android:layout_height="match_parent" />
 
     <View
         android:id="@+id/alpha_level"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="@dimen/activity_vertical_margin"
-        android:background="@color/colorBlackWithAlpha" />
+        android:background="@color/colorRedWithAlpha" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -30,7 +29,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="16dp"
-            android:text="back" />
+            android:text="reset codec" />
 
         <requestFocus />
 
@@ -39,6 +38,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="16dp"
-            android:text="forward" />
+            android:text="play" />
     </LinearLayout>
 </RelativeLayout>
